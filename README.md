@@ -1,16 +1,17 @@
 TKoolFacetileMaker2 Manual
 ================================================================================
 
-- 作者             : 次郎(Jiro)
-- 作成日           : 2016/07/16
-- 最終更新日       : 2017/03/11
-- 連絡先           : [次ログ](http://jiroron666.hatenablog.com/)
-- 実行ファイル名   : TKFM.jar
-- 動作確認・開発環境
-  - OS             : Linux Mint 18.1
-  - プロセッサ     : 2.00GHz Intel Core i7-3667U
-  - メモリ         : 8GB RAM
-  - Javaバージョン : 1.8.0-121
+- Version        : 2.1.1
+- Author         : 次郎 (Jiro)
+- Since          : 2016/07/16
+- Last Changed   : 2017/03/11
+- Author Blog    : [次ログ](http://jiroron666.hatenablog.com/)
+- Execution file : TKFM.jar
+- Operation Environment
+  - OS           : Linux Mint 18.1
+  - Processor    : 2.00GHz Intel Core i7-3667U
+  - Memory       : 8GB RAM
+  - Java Version : 1.8.0-121
 
 ![tkfmデモ](./tkfm_demo01.gif "tkfmデモ")
 
@@ -55,7 +56,7 @@ You should install Java with the following steps if you did not yet.
 
 [Java Download](https://www.java.com/ja/download/help/download_options.xml)
 
-Please tell me your BUG to Author Blog if you found one after you done that.
+Please tell me your BUG from Author Blog if you found one after you done that.
 
 Execution
 --------------------------------------------------------------------------------
@@ -120,56 +121,49 @@ FAQ
 
 ### Q1. Can't execute tkfm.jar with double click
 
-ご利用の環境にJavaがインストールされているか確認してください。また、Javaがインス
-トールされていても、本ソフト作成時のJavaのバージョン以下をご利用の場合、動作しな
-い場合があります。
+Please confirm Java version of your PC.
+And this may not work when your Java version is under Java version of this tool.
 
-Javaのインストール、アップデート方法については[動作条件](#動作条件)の項目を参照
-してください。
+Please check [Operation Condition](#Operation Condition) if you want to know how 
+to install or update Java.
 
-### Q2. 以前は動いていたのに突然起動しなくなった
+### Q2. Not working, but could use to work
 
-実行時に自動生成されたフォルダをすべて削除してください。ただし、これはあくまでも
-一時的な対処法です。
+Please delete all folders that created when you use execution file.
+But this is temporary repairs.
+Tell me that BUG if you please.
 
-もしそれで起動するようになったのでしたら、よろしければ作者にバグ報告していただけ
-ると助かります。また、起動しなくなる前に何を行っていたかも報告していただけると、
-本ソフトのバグ修正が容易になり、品質向上に役立てることができます。
+### Q3. Layout of README is broken.
 
-### Q3. READMEのレイアウトが崩れている
+That's specification.
 
-仕様です。フォントが異なるとレイアウトが崩れて見えることがあります。
+Proportional Font breaks this layout of README.
+Should change font to Monospace Font if you dislike the broken layout.
 
-メモ帳などでこのドキュメントを開いているのでしたら、書式メニューのフォントからMS
-ゴシック(MS Pゴシックではありません)を選択すると作者が期待している通りのレイアウ
-ト表示になります。
-
-利用規約
+User Policy
 --------------------------------------------------------------------------------
 
-- 配布している素材を利用したことで発生した問題に対して、私は一切の責任を負いませ
-  ん。
+- It is self-responsibillity that use my tools.
+  Please yourself solve problems has occurred by using my tools.
 
-- 著作権は私(次郎)が有しています。私が死亡して５０年経過するまで決して放棄するこ
-  とはありません。
+- Copyright of this tool is mine.
+  I curse Copyright liars forever.
 
-- 再配布はお控えください。
+- Please NOT re-gift.
 
-- 利用規約を事前連絡なしに変更する場合があります。その場合は最新の規約が適用され
-  るものとします。
+- I may change User Policy without connecting.
+  New User Policy is applied.
 
-### 補足
+### Supplementary
 
-利用できる作品
+Available Works
 
-- ツクール用に作成しましたがツクール作品以外の素材作成が目的でも利用可能です。
-- 有償作品、エロゲー、グロゲーでも利用可能です。
-- ゲーム作品以外でも利用可能です。
+- Free Game, Paid Game, Adult Game and Violence Game.
+- And not Games too.
 
-利用報告
+Return to use
 
-- READMEへの記載はしなくても結構です。
-- 使用報告もしなくて結構です。
+- Unnecessary. Return is option.
 
 バージョンアップ
 --------------------------------------------------------------------------------
