@@ -1,4 +1,4 @@
-TKoolFacetileMaker2 Manual
+(Making now)TKoolFacetileMaker2 Manual
 ================================================================================
 
 - Version        : 2.1.1
@@ -13,7 +13,7 @@ TKoolFacetileMaker2 Manual
   - Memory       : 8GB RAM
   - Java Version : 1.8.0-121
 
-![tkfmデモ](./tkfm_demo01.gif "tkfmデモ")
+![tkfm_demo](./tkfm_demo01.gif)
 
 --------------------------------------------------------------------------------
 
@@ -165,48 +165,36 @@ Return to use
 
 - Unnecessary. Return is option.
 
-バージョンアップ
+Version Up
 --------------------------------------------------------------------------------
 
-本ソフト配布時のzipに同封のREADME.htmlをダブルクリックしてください。本ソ
-フトのプログラムを公開しているGithubというサイトにジャンプします。
+Please double click 'README.html'.
+This file lead you to Github.
+You can know about latest information of this tool.
 
-移動先のサイトに表示されているバージョン情報が、現在ご使用のバージョンよりも上
-がっている場合は、移動先サイトの実行ファイルをダウンロードしてご利用ください。
+And you check Version of this tool of Manual.
+You should download new version in [my blog](http://jiroron666.hatenablog.com/) 
+if version number is over your tool.
 
-ダウンロード方法がわからなかった場合は、本ソフトをダウンロードしたツクマテコミュ
-ニティ・または作者ブログのソフト配布ページのDropboxのリンクから、最新版をダウン
-ロードしてください。
-
-その他・作者からのお願い
+Please from Author
 --------------------------------------------------------------------------------
 
-- バグの報告は連絡先の作者ブログか、ツクマテコミュニティのツール配布のページでお
-  願いします。
+- Please send Bug Report to Author Blog or my tool page of
+  [ツクマテ](http://tm.lucky-duet.com/).
 
-- 様々なユーザが利用することを想定して慎重にデバッグを行っておりますが、個人制作
-  ということもあり、確認が細部にまで至っていないことがあるかもしれません。
+- Please backup that if you use important files.
+  And I recommend using 'Save as...'.
 
-  非常に大切なファイルなどをもし扱うようなことがある場合、予めデータをコピーして
-  バックアップを取ってから利用することをおすすめします。
-
-- 新しい機能の実装のご要望をいただいた場合、実装する場合もあるかもしれませんが、
-  必ずではないことをご了承ください。
-
-アンインストール方法
+Uninstall
 --------------------------------------------------------------------------------
 
-本ソフトはレジストリを変更していませんので、配布時のzipフォルダと展開後のフォル
-ダを実行ファイルごとゴミ箱にぶち込んでいただければアンインストールできます。
+This tool doesn't change Registory.
 
-もし本ソフトの実行ファイルをフォルダの外に移動して実行した場合は、自動で生成され
-る各種フォルダを削除していただければ、アンインストールは完了です。
+Delete tkfm.jar and folders that created when used tkfm.jar.
+or delete folder that tkfm.jar exists.
 
-実行時に生成されるフォルダについては[ファイル構成] (#ファイル構成)の項目を参照し
-てください。
-
-更新履歴
+Change Log
 --------------------------------------------------------------------------------
 
-2017/03/11: Ver2.1.1
+Mar 11, 2017: ver2.1.1
 - 英語版の作成 (Made English Version)
