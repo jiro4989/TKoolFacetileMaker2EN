@@ -20,9 +20,9 @@ TKoolFacetileMaker2 Manual
 Software Overview
 --------------------------------------------------------------------------------
 
-    ***WARNING***
+  ***WARNING***
 
-    ***I am Japanese and my English is not perfect.***
+  ***I am Japanese and my English is not perfect.***
 
 This is tool to make face tile image of RPG Maker MV and VXACE.
 
