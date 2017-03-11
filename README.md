@@ -51,43 +51,47 @@ Your PC has Java if you want to work this tool.
 
 You should install Java with the following steps if you did not yet.
 
-[Java Download](https://www.java.com/ja/download/help/download_options.xml)  
+[Java Download](https://www.java.com/ja/download/help/download_options.xml)
 
-また、本ソフト作成時のJavaのバージョン以上のJava実行環境がインストールされてい
-る必要があります。もしJavaがインストールされている環境で本ソフトが実行できな
-かった場合は、下記の手順に従って最新のJavaにアップデートしてください。  
-[Oracle Javaアップデート](https://java.com/ja/download/)  
+Please tell me your BUG to Author Blog if you found one after you done that.
 
-それでも起動できなかった場合は、お手数ですがFAQの項目を確認した後に、README先頭
-の連絡先より製作者に報告をお願いいたします。
-
-実行方法
+Execution
 --------------------------------------------------------------------------------
 
-"TKFM.jar"をダブルクリックしてください。  
-LinuxOSをご使用の方はターミナルから"java -jar TKFM.jar"と打ち込んでください。
+Double click 'tkfm.jar'.
+You should type 'java -jar tkfm.jar' if you use LinuxOS.
 
-使い方
+Usage
 --------------------------------------------------------------------------------
 
-1. ひとつのファイルにまとめたい表情差分をインポートします。画面左上のメニューの
-   開くからまとめたいファイルを選択してください。画面左側のリストにファイル名が
-   追加されていれば正常にインポートが完了しています。このファイルの追加はドラッ
-   グアンドドロップでも行えます。
+1. Open image files that you want to connect to 1 file.
+   You should click 'File' Menu and 'Open...'
+   or drag and drop image files to file list.
 
-2. ファイルリストをクリックしてください。ファイルリストをクリックすると、画面右
-   側の画像ビューワに選択した画像が表示されます。
+2. Click file or select files of file list.
+   Image Viewer display image that you selected when you did that.
 
-3. 画像ビューワ中央のグリッドをマウスドラッグで移動してください。位置調整はキー
-   ボードからも行えます。上下左右移動はWASD, 拡大率の調整はQ, Eで行えます。ま
-   た、移動量や拡大率の増減量は、画像ビューワ下のコンボボックスで調節できます。
+3. Move grid panel with Mouse drag.
+   Grid panel sets position to trim images.
 
-4. 位置が決まったら、パネルをクリックするか、一括挿入ボタンをクリックしてくださ
-   い。一括挿入はキーボードからも行えます。数字キーを押していただくと、押した数
-   字に対応したパネルから一括挿入がされます。
+4. Change scale of image with scroll bar of Image Viewer.
 
-5. これでOKだと思うように調整できましたら、メニューから保存を選択してください。
-   正常に保存されていることが確認できれば、作業は終了です。お疲れ様でした。
+5. Click 'Insert all images'.
+   Output Preview display preview image.
+
+   'Insert all images' button sets selected images to 1 to 8 panels of Output 
+   Preview.
+
+   You should type number key (1 to 8) if you want to set images to number panel 
+   of Output Preview (but not 1 panel).
+
+6. Click 'File' Menu.
+   and click 'Save' or 'Save as ...'.
+
+   You should confirm created image.
+   Work has done if no problems.
+
+   Good job :)
 
 ショートカットキー
 --------------------------------------------------------------------------------
@@ -166,67 +170,5 @@ LinuxOSをご使用の方はターミナルから"java -jar TKFM.jar"と打ち�
 更新履歴
 --------------------------------------------------------------------------------
 
-2016/07/16: ver1.0
-- プログラム公開
-
-2016/07/16: ver1.1
-- 使い方画面で表示されるチュートリアル画像が同封されておらず、画像が表示されな
-  い不具合を修正。
-
-2016/08/06: ver1.2
-- プログラム内で使用していた画像をソース内に含むように変更。
-- エクスプローラーからドラッグアンドドロップでリストにファイルを追加できるよう
-  に変更。
-- TKFM.jar単体で動作するように変更。propertiesというフォルダが同じフォルダ内に
-  存在しなかった場合、自動でそれらを生成する。
-- Linux環境でも動作するように変更。
-
-2016/09/14: ver1.3
-- ウィンドウサイズを可変式に変更。
-- 各種コンポーネントにマウスオーバーすると説明が表示されるように変更。
-- フォントをシステムフォントからメイリオ12ptに変更。OSのシステムフォントサイズ
-  によって本ツールのフォントサイズ およびレイアウトが意図しないものになる不具合
-  を解消。
-- 出力ファイル名が未入力のままファイルを上書き保存しようとすると警告を表示する
-  ように変更。
-- メニューに画像位置と拡大率を変更する項目を追加。
-
-2016/10/16: ver1.4
-- レイアウト定義ファイルの記述が誤っていた不具合を修正。
-  コンソールから実行してもエラーを吐かずに正常起動するように。
-- 設定ファイル内の日本語が文字化けしていた不具合を修正。
-
-2016/10/19: ver1.5
-- 画像の拡大縮小アルゴリズムを変更し、より綺麗に画像を出力できるように。
-
-**2016/10/22: ver2.0  
-ツールを設計し直して、レイアウトの見直し、機能の追加、バグ修正をした。  
-大きくプログラムを書き直したため、バージョンを2.0とする。**
-
-- 機能追加・変更:
-  - ツクールのバージョン変更をメニューバーに移動。
-  - オプション設定画面を追加。設定変更はメニュー→設定から。
-  - ナンバリングの各種設定をオプション設定画面に移動。
-  - ナンバリングで保存する際の名前の定義をダイアログから行うように変更。
-  - フォントサイズを変更可能に。
-  - 画像ビューワで、トリミング可能な幅を明確にするためのグリッド線を追加。この
-    線は実際のトリミング画像には影響しない。
-  - ナンバリングして保存をする出力先をTKFM.jarと同じ階層のoutputフォルダに固
-    定。このフォルダが存在しなかった場合、自動でフォルダが生成される。
-  - 各コンポーネントに付与していたツールチップ(マウスオーバーで表示される解説
-    文)が 目障りだと感じたので全て削除。
-  - メニューのヘルプの使い方の項目を削除。上記の理由で使い方ウィンドウ内で使用
-    していた画像も削除。使い方は同封のreadme.txtを参照。
-  - その他操作をメニューバーに追加。
-
-- バグ修正:
-  - トリミング位置の目安になるフォーカスと実際のトリミング位置のズレを修正。
-  - 画像の縮小によってトリミングサイズより元の画像が小さくなった場合にファイル
-    出力ができないように、画像の縮小が途中で停止するように変更。
-
-2016/11/20: ver2.1
-- ファイルの保存先や開いたファイルの存在するフォルダの名前を後から変更した場合に、
-  ファイル選択画面を開けなくなる不具合を修正。
-
-2017/03/11: Ver2.1a
-- 英語ドキュメントの作成
+2017/03/11: Ver2.1.1
+- 英語版の作成 (Making English Version)
